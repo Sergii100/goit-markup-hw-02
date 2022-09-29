@@ -1,0 +1,276 @@
+:root {
+  --main-text-color: #757575;
+  --second-color: #212121;
+  --special-color: #2196F3;
+
+  --main-font-size: 14px;
+  --second-font-size: 16px;
+}
+
+
+body {
+  background-color: #ffffff;
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+
+  margin: 0;
+  padding: 0;  
+ }
+
+ .list {
+    text-decoration: none;
+    list-style: none;
+
+    color: var(--second-color);
+    
+ }
+
+ .list:hover, .list:focus {
+   color: var(--special-color);
+ }
+ 
+
+ /* ........................HEADER................... */
+
+ .header-logo {
+  color: #000000;
+  text-decoration: none;
+  
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+ }
+
+ .logo-web {
+  color: var(--special-color);
+ }
+
+ .header-item-studio {
+  color: var(--special-color);
+ }
+
+ .header-list, .header-contact-list { 
+  font-size: var(--main-font-size);
+ }
+
+
+    /* ........................MAIN................... */
+
+/* HERO */
+  
+.hero {
+  /* фон для наглядності */
+  background-color: aqua;
+}
+
+.hero-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--special-color);
+  color: #ffffff;
+
+  font-family: 'Roboto', sans-serif ;
+  font-weight: 700;
+  font-size: var(--second-font-size);
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ADVANTAGES */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantages-heads {
+  color: var(--second-color);
+  
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  color: var(--main-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* EXAMPLES */
+
+.examples-title {
+  color: var(--second-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.examples-item {
+  list-style: none;
+}
+
+/* OUR TEAM */
+
+.team {
+  background-color: #F5F4FA;
+}
+
+.team-title {
+    color: var(--second-color);  
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-item {
+  list-style: none;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+.team-heads {
+  color: var(--second-color);
+
+  font-weight: 500;
+  font-size: var(--second-font-size);
+  line-height: 1.19;    
+}
+
+.team-position {
+  color: var(--main-text-color);
+
+  font-size: var(--second-font-size);
+  line-height: 1.19;
+}
+
+/* ........................FOOTER................... */
+
+.footer {
+  background-color: #2F303A;
+}
+
+.footer-logo {
+  color: #ffffff;
+  text-decoration: none;
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.footer-item {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-list .list {
+  color: rgba(255, 255, 255, 0.6);
+
+  line-height: 1.71;
+  letter-spacing: 0.03em;  
+}
+
+.footer-list-address {
+  color: #ffffff;
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* ........................PORTFOLIO................... */
+
+/* FILTER */
+
+.projects-item {
+  list-style: none;
+}
+
+.projects-list-button {
+  color: var(--second-color);
+  background-color: #F5F4FA;
+
+  font-weight: 500;
+  font-size: var(--second-font-size);
+  line-height: 1.62;
+}
+
+.projects-list-button:hover,
+.projects-list-button:focus {
+  background-color: var(--special-color);
+  color: #ffffff;
+}
+
+/* GALLERY */
+
+.gallery-list {
+  list-style: none;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-heads {
+  color: var(--second-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+}
+
+.gallery-type {
+  color: var(--main-text-color);
+
+  font-size: var(--second-font-size);
+  line-height: 1.88;
+}
+
+
+
+
+
+
+
