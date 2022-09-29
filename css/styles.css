@@ -21,7 +21,6 @@ body {
  .list {
     text-decoration: none;
     list-style: none;
-
     color: var(--second-color);
     
  }
@@ -87,6 +86,11 @@ body {
   letter-spacing: 0.06em;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+
 }
 
 /* ADVANTAGES */
@@ -233,6 +237,9 @@ body {
   font-weight: 500;
   font-size: var(--second-font-size);
   line-height: 1.62;
+
+  border: 0;
+  border-radius: 4px;
 }
 
 .projects-list-button:hover,
