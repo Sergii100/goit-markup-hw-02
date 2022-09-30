@@ -227,11 +227,21 @@ body {
   letter-spacing: 0.03em;  
 }
 
+.footer-list .list:hover,
+.footer-list .list:focus {
+  color: var(--special-color);
+}
+
 .footer-list-address {
   color: #ffffff;
 
   font-size: 14px;
   line-height: 1.71;
+}
+
+.footer-list-address:hover,
+.footer-list-address:focus {
+  color: var(--special-color);
 }
 
 /* ........................PORTFOLIO................... */
