@@ -51,8 +51,13 @@ body {
   color: var(--special-color);
  }
 
- .header-list, .header-contact-list { 
+ .header-list { 
   font-size: var(--main-font-size);
+  font-weight: 500;
+ }
+
+ .header-contact-list .list {
+  color: var(--main-text-color);
  }
 
 
